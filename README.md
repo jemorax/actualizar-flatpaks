@@ -14,6 +14,6 @@ Script que facilita el proceso de actualización de Flatpaks desde una terminal.
 
 1. Accede al directorio donde descargaste el script. 
 2. Abre una terminal en ese directorio y abre con un editor de texto el fichero del script. Por ejemplo, con nano: `nano actualizar-flatpak-v.1.0.sh`
-3. En el script, busca la variable llamada “paquetes” (línea 24) y agrega el nombre completo de la aplicación o aplicaciones concretas que quieras obtener actualizaciones. Por ejemplo, para obtener actualizaciones sólo de los navegadores LibreWolf y Brave (estas aplicaciones tienen que estar ya instaladas previamente): `paquetes='com.brave.Browser io.gitlab.librewolf-community'`
+3. En el script, busca la variable llamada “paquetes” (línea 24) y agrega el nombre completo de la aplicación o aplicaciones concretas que quieras obtener actualizaciones. Por ejemplo, para obtener actualizaciones sólo de los navegadores web Brave y LibreWolf (estas aplicaciones tienen que estar ya instaladas previamente): `paquetes='com.brave.Browser io.gitlab.librewolf-community'`
 4. Guarda el fichero con el editor que hayas usado.
 5. Ejecuta en la terminal el script: `./actualizar-flatpak-v.1.0.sh`
