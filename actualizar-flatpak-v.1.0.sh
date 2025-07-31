@@ -26,5 +26,4 @@ paquetes=''
 flatpak update $paquetes
 check_error "Actualizar Flatpaks"
 
-echo "¡Actualización completada!"
 sleep 3
